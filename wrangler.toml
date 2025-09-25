@@ -7,11 +7,11 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "relay"
-database_id = ""
+database_id = "7d9e1c1c-de8c-420b-a522-2b7ed6d02c02"
 
 [[kv_namespaces]]
 binding = "KV"
-id = ""
+id = "4dd0359180294388a53297c19a3e499f"
 
 # If you use the R2 for NIP-96, you should config this setting.
 # [[r2_buckets]]
@@ -19,8 +19,8 @@ id = ""
 # bucket_name = "relay"
 
 [vars]
-OWNER = "29320975df855fe34a7b45ada2421e2c741c37c0136901fe477133a91eb18b07"
-NIP05_USERS_TEXT = '{"dashu": "29320975df855fe34a7b45ada2421e2c741c37c0136901fe477133a91eb18b07"}'
+OWNER = "37c10448a0fd9295d166100dcd80b01f52f3cc70c98431a89f480fc9f8256861"
+NIP05_USERS_TEXT = "{\"tom\": \"37c10448a0fd9295d166100dcd80b01f52f3cc70c98431a89f480fc9f8256861\"}"
 R2_CUSTOM_DOMAIN = "null"
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
